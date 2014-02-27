@@ -9,6 +9,7 @@ gem 'rails', '3.2.14'
 group :development, :test do
   gem 'sqlite3'
   gem 'debugger'
+  gem 'better_errors'
 end
 group :production do
   gem 'pg'
